@@ -1,0 +1,21 @@
+.layout {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.layout__header {
+  flex-shrink: 0;
+}
+
+.layout__content {
+  flex: 1;
+  overflow: auto;
+}
+
+.layout__footer {
+  flex-shrink: 0;
+  margin-top: auto;
+  text-align: right;
+  padding: 8px;
+}
